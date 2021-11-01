@@ -368,3 +368,7 @@ textarea.form-control {
 .footer-social img {
     max-width: 18px;
 }
+
+.copyright {
+  text-align: center;
+}
