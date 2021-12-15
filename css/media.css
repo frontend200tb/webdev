@@ -5,129 +5,135 @@ Mobile First сначала пишутся стили для мобильных 
 
 /* для смартфонов */
 @media (max-width: 500px) {
-    .navbar-brand {
-        max-width: 100%;
-        width: 100%;
-        text-align: center;
-        padding-top: 25px;
-        margin-bottom: 10px;
-    }
-    .navbar-brand img {
-        max-width: width 100%;
-    }
-    .navbar-nav {
-        margin: 0 auto;
-    }
+  .navbar-brand {
+    margin-bottom: 10px;
+    padding-top: 25px;
+    max-width: 100%;
+    width: 100%;
+    text-align: center;
+  }
+
+  .navbar-brand img {
+    max-width: 100%;
+    width: 100%;
+  }
+
+  .navbar-nav {
+    margin: 0 auto;
+  }
 }
 
 
 .split-img {
-    order: -1;
-    margin-bottom: 40px;
+  order: -1;
+  margin-bottom: 40px;
 }
 
 
 .split-img,
 .split-text {
-    max-width: 100%;
-    width: 100%;
+  max-width: 100%;
+  width: 100%;
 }
 
 .contact_form,
 .contact_info {
-    padding-left: 25px;
-    padding-right: 25px;
+  padding-left: 25px;
+  padding-right: 25px;
 }
 
 .contact_info {
-    order: -1;
-    margin-bottom: 30px;
+  order: -1;
+  margin-bottom: 30px;
 }
 
 
 /* для планшетов */
 @media (min-width: 768px) {
-    .service-col {
-        max-width: calc(100% / 3);
-        width: 100%;
-        margin-bottom: 0;
-    }
+  .service-col {
+    margin-bottom: 0;
+    max-width: calc(100% / 3);
+    width: 100%;
+  }
 
-    .split {
-        margin-left: -25px;
-        margin-right: -25px;
-    }
-    .split-img {
-        order:  initial;
-        margin-bottom: 0;
-    }
-    .split-img,
-    .split-text {
-        max-width: 50%;
-        width: 100%;
-        padding-left: 25px;
-        padding-right: 25px;
-    }
+  .split {
+      margin-left: -25px;
+      margin-right: -25px;
+  }
 
-    .contact_form,
-    .contact_info {
-        max-width: 50%;
-        width: 100%
-    }
-    .contact_info {
-        order: initial;
-        margin-bottom: 0;
-    }
+  .split-img {
+    order:  initial;
+    margin-bottom: 0;
+  }
 
-    .form-col-50 {
-        max-width: 50%;
-        width: 100%;
-    }
+  .split-img,
+  .split-text {
+    padding-left: 25px;
+    padding-right: 25px;
+    max-width: 50%;
+    width: 100%;
+  }
+
+  .contact_form,
+  .contact_info {
+    max-width: 50%;
+    width: 100%
+  }
+
+  .contact_info {
+    order: initial;
+    margin-bottom: 0;
+  }
+
+  .form-col-50 {
+    max-width: 50%;
+    width: 100%;
+  }
 }
 
 
 h1 {
-    font-size: 34px;
+  font-size: 34px;
 }
 
 h2 {
-    font-size: 28px;
+  font-size: 28px;
 }
 
 h3 {
-    font-size: 22px;
+  font-size: 22px;
 }
 
 h4 {
-    font-size: 18px;
+  font-size: 18px;
 }
 
 .lead {
-    font-size: 16px;
+  font-size: 16px;
 }
 
 
 /* для десктопов */
 @media (min-width: 992px) {
-    h1 {
-        font-size: 44px;
-    }
+  h1 {
+    font-size: 44px;
+  }
 
-    h2 {
-        font-size: 33px;
-    }
+  h2 {
+    font-size: 33px;
+  }
 
-    h3 {
-        font-size: 26px;
-    }
+  h3 {
+    font-size: 26px;
+  }
 
-    h4 {
-        font-size: 20px;
-    }
+  h4 {
+    font-size: 20px;
+  }
 
-    .lead {
+  .lead {
     font-size: 19px;
-    }
+  }
 }
 
 
